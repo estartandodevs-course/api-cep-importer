@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS neighborhoods (
 CREATE TABLE IF NOT EXISTS streets (
     id serial PRIMARY KEY,
     name varchar(150) NOT NULL,
+    zip_code varchar(10) NOT NULL,
     neighborhood_id integer NOT NULL,
     CONSTRAINT FK_streets_neighborhoods FOREIGN KEY (neighborhood_id) REFERENCES neighborhoods (id)
 );
