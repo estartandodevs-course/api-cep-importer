@@ -42,15 +42,15 @@ function generateInsertNeighborhoodSql(id, name, cityId) {
   fs.appendFileSync(fileSeedNeighborhoodsPath, sql + "\n");
 }
 
-function generateInsertStreetSql(id, name, neighborhoodId) {
-  const sql = `INSERT INTO streets (id, name, neighborhood_id) VALUES (${id}, '${name}', ${neighborhoodId});`;
+function generateInsertStreetSql(id, name, zipCode, neighborhoodId) {
+  const sql = `INSERT INTO streets (id, name, zip_code, neighborhood_id) VALUES (${id}, '${name}', '${zipCode}', ${neighborhoodId});`;
   fs.appendFileSync(fileSeedStreetPath, sql + "\n");
 }
 
 for (let i = 0; i < dataArray.length; i++) {
   const value = dataArray[i];
 
-  const [cep, cityAndState, neighborhood, street] = value.split("\t");
+  const [zipCode, cityAndState, neighborhood, street] = value.split("\t");
   const [city, state] = cityAndState.split("/");
 
   let currentStateId;
@@ -112,7 +112,12 @@ for (let i = 0; i < dataArray.length; i++) {
   }
 
   currentStreetId = streetLastId++;
-  generateInsertStreetSql(currentStreetId, street, currentNeighborhoodId);
+  generateInsertStreetSql(
+    currentStreetId,
+    street,
+    zipCode,
+    currentNeighborhoodId
+  );
 }
 
 console.log("Seeds geradas...");
