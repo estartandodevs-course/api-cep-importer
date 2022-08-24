@@ -1,0 +1,23 @@
+01001000	São Paulo/SP	Sé	Praça da Sé - lado ímpar
+01001001	São Paulo/SP	Sé	Praça da Sé - lado par
+01001010	São Paulo/SP	Sé	Rua Filipe de Oliveira
+01001900	São Paulo/SP	Sé	Praça da Sé, 108 	 UNESP - Universidade Estadual Júlio de Mesquita Filho
+01001901	São Paulo/SP	Sé	Praça da Sé, 371 	 Edifício Santa Lídia
+01001902	São Paulo/SP	Sé	Praça da Sé, 385 	 OAB - Ordem dos Advogados do Brasil.
+01002000	São Paulo/SP	Sé	Rua Direita - lado par
+01002001	Rio de Janeiro/RJ	Sé	Rua Direita - lado ímpar
+01002010	São Paulo/SP	Sé	Praça do Patriarca
+01002020	São Paulo/SP	Centro	Viaduto do Chá
+01002900	São Paulo/SP	Centro	Viaduto do Chá, 15 	 Prefeitura do Município de São Paulo
+01002901	São Paulo/SP	Sé	Rua Direita, 32 	 Edifício Piratininga
+01002902	São Paulo/SP	Sé	Rua Direita, 191 	 Edifício Zogbi
+01002903	São Paulo/SP	Sé	Rua Direita, 250 	 Edifício Barão de Iguape
+01003000	São Paulo/SP	Sé	Rua José Bonifácio - lado par
+01003001	São Paulo/SP	Sé	Rua José Bonifácio - lado ímpar
+01003010	São Paulo/SP	Sé	Praça Ouvidor Pacheco e Silva
+01003900	São Paulo/SP	Sé	Rua José Bonifácio, 24 	 Edifício Triângulo
+01003901	São Paulo/SP	Sé	Rua José Bonifácio, 93 	 Edifício Santa Cruz
+01003902	São Paulo/SP	Sé	Rua José Bonifácio, 209 	 Edifício Brasília
+01003903	São Paulo/SP	Sé	Rua José Bonifácio, 250 	 Edifício Ouvidor
+01003904	São Paulo/SP	Sé	Rua José Bonifácio, 278 	 Edifício Barão de Piracicaba
+01003905	São Paulo/SP	Sé	Rua José Bonifácio, 367 	 Edifício Serasa
